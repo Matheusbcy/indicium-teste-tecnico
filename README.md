@@ -41,8 +41,16 @@ As dependências acima constam no arquivo `requirements.txt` do projeto.
 ## ⚙️ Instalação
 
 1. Instale o **Python 3.10** ou superior no seu sistema.  
-2. Crie e ative um **ambiente virtual** de sua preferência.  
+[Download Python](https://www.python.org/downloads/)  
+2. Crie e ative um **ambiente virtual** de sua preferência.
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
 3. Instale as dependências listadas no `requirements.txt`.  
+```bash
+pip install -r requirements.txt
+```
 4. Caso queira replicar exatamente o ambiente utilizado, utilize as versões indicadas na seção de requisitos.  
 
 ---
